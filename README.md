@@ -1,5 +1,13 @@
 # Learn Golang
 
+## Tutorials
+
+1. [Golang tutorial series](https://golangbot.com/learn-golang-series/), [Naveen Ramanathan](https://golangbot.com/about/)
+
+## Function
+
+1. [Pass by pointer vs pass by value in Go](http://goinbigdata.com/golang-pass-by-pointer-vs-pass-by-value/), [Yury Pitsishin](http://goinbigdata.com/about/)
+
 ## Examples
 
 ### Access DynamoDB
