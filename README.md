@@ -23,3 +23,5 @@
 7. [Go & Versioning](https://research.swtch.com/vgo), [research!rsc](https://research.swtch.com/)
 8. [mgo(Rich MongoDB driver for Go)](http://labix.org/mgo), [Labix](http://labix.org/), [Gustavo Niemeyer](https://blog.labix.org/author/niemeyer)
 9. [Evernote SDK for Golang](https://dev.twsiyuan.com/2017/06/evernote-sdk-for-golang.html), [思元的開發筆記](https://dev.twsiyuan.com/)
+10. [Web frameworks for Go, most starred on Github](https://github.com/mingrammer/go-web-framework-stars)
+11. [Gin Web Framework](https://github.com/gin-gonic/gin)
