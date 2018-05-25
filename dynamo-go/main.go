@@ -20,5 +20,6 @@ func main() {
 	db := dynamo.New("us-east-2")
 	db.ListTables()
 	db.Query("g3_devices", "03AFB154")
+	db.DescribeTable("g3_devices")
 	fmt.Println(db.Region)
 }
