@@ -1,0 +1,69 @@
+{
+  "resource": "/device",
+  "path": "/device",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept-Language": "zh-tw",
+    "Authorization": "Bearer ****",
+    "cache-control": "no-cache",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "JP",
+    "Content-Type": "application/json",
+    "Host": "nbsb5yoheg.execute-api.us-west-2.amazonaws.com",
+    "Postman-Token": "da953652-ab2d-4bc0-97d9-ad146fbf6224",
+    "User-Agent": "Amazon CloudFront",
+    "Via": "1.1 84cd79327ae40bd26c55c267da139245.cloudfront.net (CloudFront), 1.1 aaaeec5ce7fa57465451e378ad3ba852.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "iWMMdI7o7UCIlEqCqVBvrAK23Z3zne69eiN1fwrI-fpQY07yrt4lqA==",
+    "X-Amzn-Trace-Id": "Root=1-5afa1b7b-4c5538855fd05ddafe799737",
+    "X-Forwarded-For": "118.163.108.246, 13.113.203.4, 54.239.196.74",
+    "X-Forwarded-Host": "api.mytracmo.com",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": {
+    "lambdaAlias": "lab",
+    "client_id": "tracmo"
+  },
+  "requestContext": {
+    "resourceId": "g133xh",
+    "authorizer": {
+      "oauth_token_data": "{\"app_id\":\"tracmo\",\"username\":\"hoebus@qblinks.com:tracmo\",\"scope\":\"tracmo,xim\",\"exp\":3153600000,\"device_id\":\"44BA4ABB-D657-4442-A6A3-BFDFCB8D5E7C\",\"iat\":1523487437}",
+      "jwt_info": "{\"app_id\":\"tracmo\",\"username\":\"hoebus@qblinks.com:tracmo\",\"scope\":\"tracmo,xim\",\"exp\":3153600000,\"device_id\":\"44BA4ABB-D657-4442-A6A3-BFDFCB8D5E7C\",\"iat\":1523487437}",
+      "principalId": "user"
+    },
+    "resourcePath": "/device",
+    "httpMethod": "POST",
+    "extendedRequestId": "G5k7OE9VvHcFvkQ=",
+    "requestTime": "14/May/2018:23:27:55 +0000",
+    "path": "/lab/device",
+    "accountId": "730004890900",
+    "protocol": "HTTP/1.1",
+    "stage": "lab",
+    "requestTimeEpoch": 1526340475088,
+    "requestId": "6dbe7dbf-57ce-11e8-8ac2-db3871fcd040",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "13.113.203.4",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Amazon CloudFront",
+      "user": null
+    },
+    "apiId": "nbsb5yoheg"
+  },
+  "body": "{\n  \"device_id\": \"hoebus_tracmo_test1\"\n}",
+  "isBase64Encoded": false
+}

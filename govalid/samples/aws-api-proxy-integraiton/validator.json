@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "requestContext": {
+    "authorizer": {
+      "jwt_info": {
+        "_type": "json",
+        "app_id": {
+          "_type": "string"
+        },
+        "username": {
+          "_type": "string"
+        },
+        "scope": {
+          "_type": "string",
+          "_in": ["tracmo"]
+        }
+      }
+    }
+  },
+  "body": {
+    "_type": "json",
+    "device_id": {
+      "_type": "string"
+    }
+  }
+}
