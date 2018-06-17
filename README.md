@@ -26,3 +26,4 @@
 10. [Methods on structs](http://golangtutorials.blogspot.tw/2011/06/methods-on-structs.html), [GoLang Tutorials](http://golangtutorials.blogspot.tw/)
 11. [Web frameworks for Go, most starred on Github](https://github.com/mingrammer/go-web-framework-stars)
 12. [Gin Web Framework](https://github.com/gin-gonic/gin)
+13. [Configuring the AWS SDK for Go](https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html)
