@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	v "github.com/gima/govalid/v1"
+	v "go.255.fi/govalid/v1"
 )
 
 func main() {
