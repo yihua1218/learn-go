@@ -1,3 +1,4 @@
 .vscode
 govalid/govalid
 json/gjson/gjson
+validator-go/validator-go
