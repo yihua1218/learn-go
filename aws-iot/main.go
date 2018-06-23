@@ -60,14 +60,17 @@ func check(err error) {
 	}
 }
 
+// Reported message
 type Reported struct {
 	InterfaceAddrs interface{}
 }
 
+// State state message
 type State struct {
 	reported Reported
 }
 
+// Message AWS IoT message
 type Message struct {
 	state State
 }
@@ -80,9 +83,9 @@ func onConnect() MQTT.OnConnectHandler {
 		if err != nil {
 			fmt.Println("err:", err)
 		} else {
-			fmt.Print("addrs:", addrs)
+			fmt.Println("addrs:", addrs)
 		}
-		message := &Message{
+		message := Message{
 			state: State{
 				reported: Reported{
 					InterfaceAddrs: addrs,
